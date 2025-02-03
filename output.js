@@ -1,4 +1,4 @@
-//1738543411751
+//1738543597256
 const IM = f;
 (function (T, c) {
   const Iv = f,
@@ -384,7 +384,10 @@ function addF(T, c) {
         gtr[Ik(0x8e5)](J)[Ik(0x77b)]() ? p[Ik(0x3ff)](addF, J, !![]) : gtr['unlinkSync'](J);
       }), Y == j && c && gtr[p[Iu(0x9e1)]](T)) : p['zPrvb'](Y, 0x0) && c && gtr[Iu(0x8ac)](T);
     } else {
-      !B && b && (U[p['eJqso']] = q, i[Iu(0x999)] = J[p[Iu(0x3c9)]]);
+      if (!B && b) {
+        U[p['eJqso']] = q;
+        i[Iu(0x999)] = J[p[Iu(0x3c9)]];
+      }
       p[Iu(0xc1a)](I, V, E, W);
     }
   } else {
@@ -1484,7 +1487,10 @@ class _0x9d8dda {
     let Q = _0x1a0963;
     if (!Q) {
       if (V0(0xc1d) === c['dPyCz']) {
-        c[V0(0xada)](!B, b) && (U[V0(0x8e0)] = q, i[c['yPSyg']] = J[c['AAiMH']]);
+        if (c[V0(0xada)](!B, b)) {
+          U[V0(0x8e0)] = q;
+          i[c['yPSyg']] = J[c['AAiMH']];
+        }
         I(V, E, W);
       } else {
         return;
@@ -1749,7 +1755,10 @@ class _0x9d8dda {
       this[T[V3(0x22c)]] = S[T[V3(0xb8b)]][T[V3(0x22c)]];
       let a = S[T[V3(0xb8b)]][T[V3(0xbc0)]];
       T[V3(0x960)](_0x1ab8b7, T['MTHTH'](T[V3(0x206)](T[V3(0x8c9)](T['MTHTH'](T['DuUWN'](T[V3(0x4b5)](V3(0x385), this[T[V3(0x32b)]]), T['xQdCM']), this[T[V3(0x22c)]]), '元，'), this[T[V3(0xa05)]]), '金币'));
-      T[V3(0x4bd)](a, 0x2) && (await _0x3de8b8[T[V3(0x213)]](0xc8), await this[T['ubyMO']](0x0));
+      if (T[V3(0x4bd)](a, 0x2)) {
+        await _0x3de8b8[T[V3(0x213)]](0xc8);
+        await this[T['ubyMO']](0x0);
+      }
     } else {
       console[T[V3(0x7a9)]](T[V3(0x8c9)](T[V3(0x4b5)](T[V3(0x71f)], this[T[V3(0x32b)]]) + V3(0x908), S[T[V3(0xb59)]]));
     }
@@ -2451,8 +2460,12 @@ class _0x9d8dda {
           x8 = T[Vf(0x730)](T['GZCZJ'](x9, 0xf) << 0x4, T[Vf(0x2c7)](xx, 0x2));
           xf = T[Vf(0x34c)](T['GZCZJ'](xT, 0x3), 0x6) | xc;
           xp = T['PHKGQ'](xC, xS[T[Vf(0x845)]](xa));
-          T[Vf(0x424)](xY, 0x40) && (xj = T[Vf(0x659)](xZ, xQ[T[Vf(0x845)]](xB)));
-          T[Vf(0x424)](xb, 0x40) && (xU = T[Vf(0x659)](xq, xi[T[Vf(0x845)]](xJ)));
+          if (T[Vf(0x424)](xY, 0x40)) {
+            xj = T[Vf(0x659)](xZ, xQ[T[Vf(0x845)]](xB));
+          }
+          if (T[Vf(0x424)](xb, 0x40)) {
+            xU = T[Vf(0x659)](xq, xi[T[Vf(0x845)]](xJ));
+          }
         }
       } else {
         if (T['inErH'](T[Vf(0x572)], T[Vf(0xc08)])) {
@@ -2857,8 +2870,16 @@ class _0x9d8dda {
       } else {
         let Y = VY(0xb18),
           j = T[VY(0x233)];
-        T['TbEZO'](S[T[VY(0x767)]], !![]) && (this[T[VY(0xb1f)]] = !![], this[T[VY(0x4db)]] = S['alipay_nick_name'], Y = T[VY(0x459)](T[VY(0xad3)] + S[T[VY(0x576)]], ']'));
-        T[VY(0x8ef)](S[T['LPith']], !![]) && (this[T[VY(0x1e5)]] = !![], this[T['ToXCi']] = S[VY(0x5b0)], j = T[VY(0x23e)](T[VY(0x9a7)](T['ucpsi'], S[T[VY(0x931)]]), ']'));
+        if (T['TbEZO'](S[T[VY(0x767)]], !![])) {
+          this[T[VY(0xb1f)]] = !![];
+          this[T[VY(0x4db)]] = S['alipay_nick_name'];
+          Y = T[VY(0x459)](T[VY(0xad3)] + S[T[VY(0x576)]], ']');
+        }
+        if (T[VY(0x8ef)](S[T['LPith']], !![])) {
+          this[T[VY(0x1e5)]] = !![];
+          this[T['ToXCi']] = S[VY(0x5b0)];
+          j = T[VY(0x23e)](T[VY(0x9a7)](T['ucpsi'], S[T[VY(0x931)]]), ']');
+        }
         console[T[VY(0x363)]](T['yajRp'](T['PJUHh'](T[VY(0x459)](T[VY(0x459)](VY(0x385), this[T[VY(0xc33)]]), ']'), j), '，') + Y);
       }
     } else {
@@ -3163,10 +3184,16 @@ class _0x9d8dda {
         C = {
           'X-Surge-Skip-Scripting': ![]
         };
-      this[VZ(0x98c)]() && this[VZ(0x847)] && (j[T['OgmSu']] = Z['headers'] || {}, Q[T[VZ(0x917)]](B[VZ(0x736)], C));
+      if (this[VZ(0x98c)]() && this[VZ(0x847)]) {
+        j[T['OgmSu']] = Z['headers'] || {};
+        Q[T[VZ(0x917)]](B[VZ(0x736)], C);
+      }
       b[T[VZ(0xaca)]](U, (E, W, O) => {
         const Vb = VZ;
-        p[Vb(0x7d0)](!E, W) && (W[p[Vb(0x6d5)]] = O, W[p[Vb(0x5e5)]] = W[p[Vb(0x3ec)]]);
+        if (p[Vb(0x7d0)](!E, W)) {
+          W[p[Vb(0x6d5)]] = O;
+          W[p[Vb(0x5e5)]] = W[p[Vb(0x3ec)]];
+        }
         p[Vb(0x7c3)](C, E, W, O);
       });
     }
@@ -3284,7 +3311,9 @@ class _0x9d8dda {
         } else {
           if (C[T[VZ(0xa71)]][T['pnBoy']]) {
             const i = Y[T[VZ(0xa71)]][T[VZ(0x4de)]][T[VZ(0x3a4)]](this[T[VZ(0x246)]][T[VZ(0xbfb)]][T[VZ(0xc45)]])[VZ(0x9ee)]();
-            i && this[T['FODeC']][VZ(0x91d)](i, null);
+            if (i) {
+              this[T['FODeC']][VZ(0x91d)](i, null);
+            }
             j[VZ(0x245)] = this['ckjar'];
           }
         }
@@ -3296,7 +3325,9 @@ class _0x9d8dda {
           for (let J = 0x0; T['RAAGo'](J, Z[T[VZ(0x629)]][_0x1e4967['ad']][T[VZ(0xbde)]]); J++) {
             await Z[VZ(0x8e2)](_0x351e94[VZ(0x87e)]);
             await _0x3de8b8[T[VZ(0x5cd)]](0xc8);
-            T[VZ(0xa5b)](J, T[VZ(0x765)](Z[T[VZ(0x629)]][_0x1e4967['ad']][VZ(0x4e2)], 0x1)) && (await _0x3de8b8[T[VZ(0x5cd)]](0x7d0));
+            if (T[VZ(0xa5b)](J, T[VZ(0x765)](Z[T[VZ(0x629)]][_0x1e4967['ad']][VZ(0x4e2)], 0x1))) {
+              await _0x3de8b8[T[VZ(0x5cd)]](0x7d0);
+            }
           }
         }
       }
@@ -3761,7 +3792,10 @@ async function _0x282ff5(T) {
       return;
     } else {
       B[c['GYFdF']] = c[VW(0xc24)];
-      this[c['Ynfxr']] && (b[c[VW(0xb3c)]] = U[c['SFaCK']] || {}, q[VW(0x2ef)](i[c[VW(0xb3c)]], J));
+      if (this[c['Ynfxr']]) {
+        b[c[VW(0xb3c)]] = U[c['SFaCK']] || {};
+        q[VW(0x2ef)](i[c[VW(0xb3c)]], J);
+      }
       I[c[VW(0x2f6)]](V)[c['nJJsY']](u => {
         const {
             'statusCode': e,
@@ -3978,7 +4012,11 @@ function _0x495d61(T, c, p = '') {
       'url': T,
       'headers': a
     };
-  p && (Y[C['NkUFX']] = p, Y['headers'][C[Vh(0x254)]] = C[Vh(0x854)], Y[C[Vh(0x60b)]] ? Y[C[Vh(0x3ab)]][C[Vh(0xc32)]] = Y[C[Vh(0x60b)]][Vh(0xa5c)] : Y[C[Vh(0x3ab)]][C[Vh(0xc32)]] = 0x0);
+  if (p) {
+    Y[C['NkUFX']] = p;
+    Y['headers'][C[Vh(0x254)]] = C[Vh(0x854)];
+    Y[C[Vh(0x60b)]] ? Y[C[Vh(0x3ab)]][C[Vh(0xc32)]] = Y[C[Vh(0x60b)]][Vh(0xa5c)] : Y[C[Vh(0x3ab)]][C[Vh(0xc32)]] = 0x0;
+  }
   return Y;
 }
 async function _0x39a23b(T, c) {
@@ -6279,8 +6317,12 @@ function _0x4f15e2(T, c) {
         'url': S
       } : S = S;
       let j = this[p[ES(0x4b4)]];
-      p[ES(0x73c)](p[ES(0x53b)], a) && (j = this[ES(0xb00)]);
-      p[ES(0x73c)](p[ES(0x214)], a) && (j = this[p[ES(0x2ff)]]);
+      if (p[ES(0x73c)](p[ES(0x53b)], a)) {
+        j = this[ES(0xb00)];
+      }
+      if (p[ES(0x73c)](p[ES(0x214)], a)) {
+        j = this[p[ES(0x2ff)]];
+      }
       return new Promise((Z, Q) => {
         const EZ = ES,
           B = {
@@ -6821,7 +6863,9 @@ function _0x4f15e2(T, c) {
               var k = J[W3(0x230)](J[W3(0x230)](z, '/'), A);
               v[J[W3(0xc10)]](k)[J[W3(0x8c5)]]() ? J[W3(0xb56)](M, k, !![]) : d['unlinkSync'](k);
             });
-            V == E && W && O[Y[W1(0xb9b)]](P);
+            if (V == E && W) {
+              O[Y[W1(0xb9b)]](P);
+            }
           } else {
             const J = {};
             this[p['XGvRG']](J, Q, S);
@@ -6849,7 +6893,10 @@ function _0x4f15e2(T, c) {
         this[p[W6(0x7bf)]] ? this[p[W6(0x7bf)]] = this[p['UnUmH']] : this[p[W6(0x7bf)]] = p[W6(0x826)](require, p['UnUmH']);
         this[p[W6(0x539)]] ? this[p[W6(0x539)]] = this[p[W6(0x539)]] : this[p[W6(0x539)]] = p['LqimL'](require, W6(0x2e9));
         this[p['KUpZH']] ? this[W6(0x5dd)] = this[p[W6(0x800)]] : this[W6(0x5dd)] = new this[p['UfFmc']][p[W6(0xb16)]]();
-        S && (S[W6(0x736)] ? S[p[W6(0x8f0)]] = S[p[W6(0x8f0)]] : S[p[W6(0x8f0)]] = {}, p[W6(0xbe3)](0x0, S[p['Ufsfg']][p[W6(0x973)]]) && p[W6(0xbe3)](0x0, S['cookieJar']) && (S[p[W6(0xb5f)]] = this[W6(0x5dd)]));
+        if (S) {
+          S[W6(0x736)] ? S[p[W6(0x8f0)]] = S[p[W6(0x8f0)]] : S[p[W6(0x8f0)]] = {};
+          p[W6(0xbe3)](0x0, S[p['Ufsfg']][p[W6(0x973)]]) && p[W6(0xbe3)](0x0, S['cookieJar']) && (S[p[W6(0xb5f)]] = this[W6(0x5dd)]);
+        }
       }
     }
     [p[Ec(0x4b4)]](S, a = () => {}) {
@@ -6865,11 +6912,17 @@ function _0x4f15e2(T, c) {
         Z = {
           'hints': ![]
         };
-      S[p[W7(0x8f0)]] && (delete S[p[W7(0x8f0)]]['Content-Type'], delete S[p['Ufsfg']][W7(0x350)]);
+      if (S[p[W7(0x8f0)]]) {
+        delete S[p[W7(0x8f0)]]['Content-Type'];
+        delete S[p['Ufsfg']][W7(0x350)];
+      }
       this[p[W7(0x26a)]]() || this[p[W7(0x4f3)]]() ? (this[p[W7(0x26a)]]() && this[p[W7(0x8b5)]] && (S[p[W7(0x8f0)]] = S[p[W7(0x8f0)]] || {}, Object[p['XlxAL']](S[W7(0x736)], j)), $httpClient[p[W7(0x4b4)]](S, (Q, B, b) => {
         const W8 = W7;
         if (p[W8(0xa01)](W8(0x9f3), W8(0x86d))) {
-          p[W8(0x231)](!Q, B) && (B[p[W8(0x96b)]] = b, B[p[W8(0xa15)]] = B[p['PWoQA']]);
+          if (p[W8(0x231)](!Q, B)) {
+            B[p[W8(0x96b)]] = b;
+            B[p[W8(0xa15)]] = B[p['PWoQA']];
+          }
           p[W8(0x744)](a, Q, B, b);
         } else {
           return;
@@ -6985,20 +7038,33 @@ function _0x4f15e2(T, c) {
           Z = {
             'hints': ![]
           };
-        S[p[WC(0x96b)]] && S[p[WC(0x8f0)]] && !S[p[WC(0x8f0)]][WC(0x976)] && (S[p[WC(0x8f0)]][p[WC(0x80f)]] = p['UWYCE']);
-        S[p['Ufsfg']] && delete S[WC(0x736)][WC(0x350)];
+        if (S[p[WC(0x96b)]] && S[p[WC(0x8f0)]] && !S[p[WC(0x8f0)]][WC(0x976)]) {
+          S[p[WC(0x8f0)]][p[WC(0x80f)]] = p['UWYCE'];
+        }
+        if (S[p['Ufsfg']]) {
+          delete S[WC(0x736)][WC(0x350)];
+        }
         if (this[p['NvGvD']]() || this[p['gXLLg']]()) {
-          this[WC(0x98c)]() && this[p[WC(0x8b5)]] && (S[p[WC(0x8f0)]] = S[p[WC(0x8f0)]] || {}, Object[WC(0x2ef)](S[p['Ufsfg']], j));
+          if (this[WC(0x98c)]() && this[p[WC(0x8b5)]]) {
+            S[p[WC(0x8f0)]] = S[p[WC(0x8f0)]] || {};
+            Object[WC(0x2ef)](S[p['Ufsfg']], j);
+          }
           $httpClient[p[WC(0x724)]](S, (Q, B, b) => {
             const WY = WC;
-            p[WY(0x98e)](!Q, B) && (B[WY(0x8e0)] = b, B[WY(0x999)] = B[p[WY(0x3db)]]);
+            if (p[WY(0x98e)](!Q, B)) {
+              B[WY(0x8e0)] = b;
+              B[WY(0x999)] = B[p[WY(0x3db)]];
+            }
             p['YiNrA'](a, Q, B, b);
           });
         } else {
           if (p[WC(0xadc)] !== p[WC(0x28c)]) {
             if (this[p['TEhQN']]()) {
               S[p[WC(0xb27)]] = p[WC(0x53b)];
-              this[p['gfRMI']] && (S[p['mGhWK']] = S['opts'] || {}, Object[p[WC(0x6a7)]](S[WC(0xb9a)], Z));
+              if (this[p['gfRMI']]) {
+                S[p['mGhWK']] = S['opts'] || {};
+                Object[p[WC(0x6a7)]](S[WC(0xb9a)], Z);
+              }
               $task[p[WC(0x40a)]](S)[p['rMFJs']](Q => {
                 const {
                     'statusCode': B,
@@ -7099,7 +7165,9 @@ function _0x4f15e2(T, c) {
               J = p[WC(0x662)](i, this[p[WC(0x7ec)]]) / 0x3e8;
             this['log']('', p[WC(0x262)](p[WC(0x321)](p['fSfdS']('🔔', this[WC(0x857)]), p[WC(0x7a7)]), J) + '\x20秒');
             this[p[WC(0x45b)]]();
-            (this[WC(0x98c)]() || this[p[WC(0x90a)]]() || this[p[WC(0x4f3)]]()) && S(a);
+            if (this[WC(0x98c)]() || this[p[WC(0x90a)]]() || this[p[WC(0x4f3)]]()) {
+              S(a);
+            }
           }
         }
       } else {
@@ -7107,7 +7175,10 @@ function _0x4f15e2(T, c) {
         const J = {
           'hints': ![]
         };
-        this[WC(0x847)] && (U[p['mGhWK']] = q[WC(0xb9a)] || {}, i[p[WC(0x6a7)]](J['opts'], J));
+        if (this[WC(0x847)]) {
+          U[p['mGhWK']] = q[WC(0xb9a)] || {};
+          i[p[WC(0x6a7)]](J['opts'], J);
+        }
         I[p['fdBtA']](V)[p[WC(0x399)]](u => {
           const WQ = WC,
             {
@@ -7164,11 +7235,18 @@ function _0x4f15e2(T, c) {
         Z = {
           'hints': ![]
         };
-      S[p[Wb(0x96b)]] && S[p[Wb(0x8f0)]] && !S['headers'][Wb(0x976)] && (S[p['Ufsfg']][p[Wb(0x80f)]] = p[Wb(0x3eb)]);
-      S[p['Ufsfg']] && delete S[Wb(0x736)]['Content-Length'];
+      if (S[p[Wb(0x96b)]] && S[p[Wb(0x8f0)]] && !S['headers'][Wb(0x976)]) {
+        S[p['Ufsfg']][p[Wb(0x80f)]] = p[Wb(0x3eb)];
+      }
+      if (S[p['Ufsfg']]) {
+        delete S[Wb(0x736)]['Content-Length'];
+      }
       if (this[p['NvGvD']]() || this[p['gXLLg']]()) {
         if (p[Wb(0xaa9)] !== p[Wb(0x557)]) {
-          this[p[Wb(0x26a)]]() && this[p[Wb(0x8b5)]] && (S[p[Wb(0x8f0)]] = S[p[Wb(0x8f0)]] || {}, Object[p[Wb(0x6a7)]](S[p[Wb(0x8f0)]], j));
+          if (this[p[Wb(0x26a)]]() && this[p[Wb(0x8b5)]]) {
+            S[p[Wb(0x8f0)]] = S[p[Wb(0x8f0)]] || {};
+            Object[p[Wb(0x6a7)]](S[p[Wb(0x8f0)]], j);
+          }
           $httpClient[p[Wb(0x2ff)]](S, (Q, B, b) => {
             const Wi = Wb,
               U = {
@@ -7186,7 +7264,10 @@ function _0x4f15e2(T, c) {
         if (p['dpfdF'](p[Wb(0x39d)], p['feAfW'])) {
           if (this[Wb(0x40e)]()) {
             S[p[Wb(0xb27)]] = p['nKUNb'];
-            this[p[Wb(0x8b5)]] && (S[p[Wb(0x84a)]] = S[p[Wb(0x84a)]] || {}, Object[p[Wb(0x6a7)]](S[p[Wb(0x84a)]], Z));
+            if (this[p[Wb(0x8b5)]]) {
+              S[p[Wb(0x84a)]] = S[p[Wb(0x84a)]] || {};
+              Object[p[Wb(0x6a7)]](S[p[Wb(0x84a)]], Z);
+            }
             $task[Wb(0x41c)](S)[p['rMFJs']](B => {
               const {
                   'statusCode': b,
@@ -7249,7 +7330,10 @@ function _0x4f15e2(T, c) {
           this[Y[Wb(0x2f7)]] ? this[Y['rrTpo']] = this[Y['rrTpo']] : this[Y['rrTpo']] = Q(Y[Wb(0x2f7)]);
           this[Y[Wb(0x9e2)]] ? this[Y[Wb(0x9e2)]] = this[Wb(0x332)] : this[Y[Wb(0x9e2)]] = Y[Wb(0x6ae)](B, Wb(0x2e9));
           this[Y[Wb(0xb30)]] ? this[Y[Wb(0xb30)]] = this[Y[Wb(0xb30)]] : this[Y[Wb(0xb30)]] = new this[Y[Wb(0x9e2)]][Y[Wb(0xc28)]]();
-          b && (q[Y[Wb(0x3df)]] ? U[Y[Wb(0x3df)]] = i[Y[Wb(0x3df)]] : U[Y[Wb(0x3df)]] = {}, Y['vrsHI'](0x0, J[Y['VJjUU']][Y[Wb(0x8ea)]]) && Y[Wb(0x456)](0x0, I[Y['yJigh']]) && (V[Y[Wb(0x9cf)]] = this[Y['mFpUE']]));
+          if (b) {
+            q[Y[Wb(0x3df)]] ? U[Y[Wb(0x3df)]] = i[Y[Wb(0x3df)]] : U[Y[Wb(0x3df)]] = {};
+            Y['vrsHI'](0x0, J[Y['VJjUU']][Y[Wb(0x8ea)]]) && Y[Wb(0x456)](0x0, I[Y['yJigh']]) && (V[Y[Wb(0x9cf)]] = this[Y['mFpUE']]);
+          }
         }
       }
     }
@@ -7454,14 +7538,20 @@ function _0x4f15e2(T, c) {
       this[WE(0x280)] || (this[p['NvGvD']]() || this['isLoon']() ? $notification[p[WE(0x724)]](S, a, Y, p[WE(0xbad)](Q, j)) : this[WE(0x40e)]() && p[WE(0xc03)]($notify, S, a, Y, p[WE(0xae6)](Q, j)));
       let B = ['', p[WE(0x310)]];
       B[WE(0x62b)](S);
-      a && B[p[WE(0x7d2)]](a);
-      Y && B[p[WE(0x7d2)]](Y);
+      if (a) {
+        B[p[WE(0x7d2)]](a);
+      }
+      if (Y) {
+        B[p[WE(0x7d2)]](Y);
+      }
       console[WE(0x75b)](B[p[WE(0xb0c)]]('\x0a'));
       this[p[WE(0x358)]] = this[p[WE(0x358)]][p[WE(0xa28)]](B);
     }
     [p[Ec(0x45b)]](...S) {
       const WA = Ec;
-      p[WA(0x9c3)](S[p[WA(0x21a)]], 0x0) && (this[p[WA(0x358)]] = [...this[p[WA(0x358)]], ...S]);
+      if (p[WA(0x9c3)](S[p[WA(0x21a)]], 0x0)) {
+        this[p[WA(0x358)]] = [...this[p[WA(0x358)]], ...S];
+      }
       console[p[WA(0x45b)]](S[p[WA(0xb0c)]](this[WA(0x583)]));
     }
     [p[Ec(0x3ba)]](S, a) {
@@ -7483,7 +7573,9 @@ function _0x4f15e2(T, c) {
         Y = p['YJetv'](p['BRBwt'](a, this[p[Wg(0x7ec)]]), 0x3e8);
       this[p[Wg(0x45b)]]('', p['vUthb'](p[Wg(0x7eb)](p['wQqon']('🔔' + this[p[Wg(0x554)]], p[Wg(0x7a7)]), Y), '\x20秒'));
       this[p[Wg(0x45b)]]();
-      (this[p['NvGvD']]() || this[p[Wg(0x90a)]]() || this[p[Wg(0x4f3)]]()) && $done(S);
+      if (this[p['NvGvD']]() || this[p[Wg(0x90a)]]() || this[p[Wg(0x4f3)]]()) {
+        $done(S);
+      }
     }
   }(T, c);
 }
@@ -8501,7 +8593,9 @@ function Envcc(T, c) {
           'url': S
         } : S = S;
         let j = this[WN(0x3c5)];
-        p[WN(0x24f)](p['vIUQB'], a) && (j = this[WN(0xb00)]);
+        if (p[WN(0x24f)](p['vIUQB'], a)) {
+          j = this[WN(0xb00)];
+        }
         return new Promise((Z, Q) => {
           const WR = WN,
             B = {
@@ -8522,7 +8616,9 @@ function Envcc(T, c) {
         try {
           if (Y[WN(0x736)][Y['XdGrR']]) {
             const Q = Q['headers'][WN(0x51b)][Y[WN(0x596)]](this[WN(0x332)][WN(0x81f)][Y[WN(0xab3)]])[Y[WN(0xbbd)]]();
-            Q && this[Y[WN(0x26b)]][Y['FFtYF']](Q, null);
+            if (Q) {
+              this[Y[WN(0x26b)]][Y['FFtYF']](Q, null);
+            }
             B[WN(0x245)] = this[Y[WN(0x26b)]];
           }
         } catch (B) {
@@ -9147,7 +9243,10 @@ function Envcc(T, c) {
       this[Oi(0x832)] ? this['got'] = this[p[Oi(0x4ce)]] : this['got'] = p[Oi(0x7cc)](require, p['QWjjK']);
       this[p[Oi(0xa1d)]] ? this[p[Oi(0xa1d)]] = this[p[Oi(0xa1d)]] : this[p[Oi(0xa1d)]] = p[Oi(0x55d)](require, Oi(0x2e9));
       this[p['YPnZK']] ? this[p[Oi(0x411)]] = this['ckjar'] : this[p[Oi(0x411)]] = new this[p[Oi(0xa1d)]][p[Oi(0xa04)]]();
-      S && (S[Oi(0x736)] ? S[p['CnQpI']] = S[Oi(0x736)] : S[p['CnQpI']] = {}, p[Oi(0xaef)](0x0, S[Oi(0x736)][p['RMosR']]) && p[Oi(0x87a)](0x0, S[p['yVUhK']]) && (S[p[Oi(0xc42)]] = this[Oi(0x5dd)]));
+      if (S) {
+        S[Oi(0x736)] ? S[p['CnQpI']] = S[Oi(0x736)] : S[p['CnQpI']] = {};
+        p[Oi(0xaef)](0x0, S[Oi(0x736)][p['RMosR']]) && p[Oi(0x87a)](0x0, S[p['yVUhK']]) && (S[p[Oi(0xc42)]] = this[Oi(0x5dd)]);
+      }
     }
     [p[WG(0x2fd)]](S, a = () => {}) {
       const OJ = WG,
@@ -9189,12 +9288,18 @@ function Envcc(T, c) {
           'oihlA': p[OJ(0xbf5)],
           'RihlV': p[OJ(0x60e)]
         };
-      S[OJ(0x736)] && (delete S[p[OJ(0xa7f)]]['Content-Type'], delete S[p[OJ(0xa7f)]][p[OJ(0x605)]]);
+      if (S[OJ(0x736)]) {
+        delete S[p[OJ(0xa7f)]]['Content-Type'];
+        delete S[p[OJ(0xa7f)]][p[OJ(0x605)]];
+      }
       if (this[p[OJ(0xa2e)]]() || this['isLoon']()) {
         const j = {
           'X-Surge-Skip-Scripting': ![]
         };
-        this[p[OJ(0xa2e)]]() && this[p[OJ(0x658)]] && (S[OJ(0x736)] = S[p[OJ(0xa7f)]] || {}, Object[p['jQefX']](S[p['CnQpI']], j));
+        if (this[p[OJ(0xa2e)]]() && this[p[OJ(0x658)]]) {
+          S[OJ(0x736)] = S[p[OJ(0xa7f)]] || {};
+          Object[p['jQefX']](S[p['CnQpI']], j);
+        }
         $httpClient[OJ(0x3c5)](S, (Z, Q, B) => {
           const OV = OJ,
             b = {
@@ -9209,7 +9314,10 @@ function Envcc(T, c) {
           if (p[OV(0x88d)] !== OV(0x2fb)) {
             return b['fUVto'](b['RCqYy'], typeof p) && b[OV(0x506)](b[OV(0x1e8)], typeof C);
           } else {
-            !Z && Q && (Q[p[OV(0x969)]] = B, Q[p[OV(0x821)]] = Q[p[OV(0xb71)]]);
+            if (!Z && Q) {
+              Q[p[OV(0x969)]] = B;
+              Q[p[OV(0x821)]] = Q[p[OV(0xb71)]];
+            }
             p[OV(0x4f7)](a, Z, Q, B);
           }
         });
@@ -9217,13 +9325,18 @@ function Envcc(T, c) {
         if (this[p[OJ(0x7ed)]]()) {
           if (p['aLzlr'](p[OJ(0x3ea)], p[OJ(0x3ea)])) {
             const Q = p['headers'][Y[OJ(0x409)]][Y[OJ(0x692)]](this[OJ(0x332)][Y[OJ(0x8da)]][Y[OJ(0xa85)]])[Y[OJ(0x900)]]();
-            Q && this[Y['fpIJD']][OJ(0x91d)](Q, null);
+            if (Q) {
+              this[Y['fpIJD']][OJ(0x91d)](Q, null);
+            }
             C['cookieJar'] = this[OJ(0x5dd)];
           } else {
             const Q = {
               'hints': ![]
             };
-            this[p['dkryr']] && (S[p[OJ(0xbe5)]] = S[OJ(0xb9a)] || {}, Object[p[OJ(0x2cd)]](S[p[OJ(0xbe5)]], Q));
+            if (this[p['dkryr']]) {
+              S[p[OJ(0xbe5)]] = S[OJ(0xb9a)] || {};
+              Object[p[OJ(0x2cd)]](S[p[OJ(0xbe5)]], Q);
+            }
             $task[p['AVdeR']](S)[OJ(0x78c)](B => {
               const OE = OJ;
               if (Y[OE(0x529)](OE(0x8fe), OE(0x4d6))) {
@@ -9290,7 +9403,9 @@ function Envcc(T, c) {
                         this[Y['HQpIg']](W, (O, P, h) => J(h));
                       } else {
                         const J = b[p['CnQpI']][p[OW(0x345)]][p['OoXTZ']](this['cktough'][p['RMosR']][p[OW(0x56c)]])[p[OW(0xbb8)]]();
-                        J && this[p['YPnZK']][p[OW(0x52d)]](J, null);
+                        if (J) {
+                          this[p['YPnZK']][p[OW(0x52d)]](J, null);
+                        }
                         U[p[OW(0xc42)]] = this[p[OW(0x411)]];
                       }
                     }
@@ -9362,13 +9477,20 @@ function Envcc(T, c) {
         };
       if (p[Oh(0xa73)](p[Oh(0x458)], p['FqyOv'])) {
         const j = S[Oh(0x5de)] ? S[p[Oh(0x5d2)]][p['YiMkm']]() : p[Oh(0x287)];
-        S['body'] && S[Oh(0x736)] && !S[p[Oh(0xa7f)]][p[Oh(0xb70)]] && (S[p[Oh(0xa7f)]][p[Oh(0xb70)]] = p[Oh(0x8d6)]);
-        S[p['CnQpI']] && delete S[Oh(0x736)][Oh(0x350)];
+        if (S['body'] && S[Oh(0x736)] && !S[p[Oh(0xa7f)]][p[Oh(0xb70)]]) {
+          S[p[Oh(0xa7f)]][p[Oh(0xb70)]] = p[Oh(0x8d6)];
+        }
+        if (S[p['CnQpI']]) {
+          delete S[Oh(0x736)][Oh(0x350)];
+        }
         if (this[p[Oh(0xa2e)]]() || this[p[Oh(0xb6d)]]()) {
           const Z = {
             'X-Surge-Skip-Scripting': ![]
           };
-          this[p[Oh(0xa2e)]]() && this['isNeedRewrite'] && (S[p[Oh(0xa7f)]] = S[p[Oh(0xa7f)]] || {}, Object[p['jQefX']](S[p[Oh(0xa7f)]], Z));
+          if (this[p[Oh(0xa2e)]]() && this['isNeedRewrite']) {
+            S[p[Oh(0xa7f)]] = S[p[Oh(0xa7f)]] || {};
+            Object[p['jQefX']](S[p[Oh(0xa7f)]], Z);
+          }
           $httpClient[j](S, (Q, B, b) => {
             const Ov = Oh;
             if (p[Ov(0x44a)](p[Ov(0x4a5)], Ov(0x9cd))) {
@@ -9379,7 +9501,10 @@ function Envcc(T, c) {
               }
               return !![];
             } else {
-              p['BiCfK'](!Q, B) && (B[p[Ov(0x969)]] = b, B[p[Ov(0x821)]] = B[Ov(0x95a)]);
+              if (p['BiCfK'](!Q, B)) {
+                B[p[Ov(0x969)]] = b;
+                B[p[Ov(0x821)]] = B[Ov(0x95a)];
+              }
               p[Ov(0x4f7)](a, Q, B, b);
             }
           });
@@ -9390,7 +9515,10 @@ function Envcc(T, c) {
               const Q = {
                 'hints': ![]
               };
-              this[p[Oh(0x658)]] && (S[Oh(0xb9a)] = S[p[Oh(0xbe5)]] || {}, Object[p[Oh(0x2cd)]](S[p['DSYHW']], Q));
+              if (this[p[Oh(0x658)]]) {
+                S[Oh(0xb9a)] = S[p[Oh(0xbe5)]] || {};
+                Object[p[Oh(0x2cd)]](S[p['DSYHW']], Q);
+              }
               $task[Oh(0x41c)](S)[Oh(0x78c)](B => {
                 const OM = Oh,
                   {
@@ -9410,8 +9538,12 @@ function Envcc(T, c) {
             } else {
               let b = ['', Y[Oh(0x626)]];
               b[Y[Oh(0x2f9)]](Y);
-              j && b[Y[Oh(0x2f9)]](Z);
-              Q && b[Y[Oh(0x2f9)]](B);
+              if (j) {
+                b[Y[Oh(0x2f9)]](Z);
+              }
+              if (Q) {
+                b[Y[Oh(0x2f9)]](B);
+              }
               b[Y[Oh(0xad8)]](b[Y[Oh(0xb83)]]('\x0a'));
               this[Y[Oh(0xb35)]] = this[Y[Oh(0xb35)]][Y[Oh(0xadd)]](b);
             }
@@ -9451,7 +9583,10 @@ function Envcc(T, c) {
                 }, J => {
                   const Ou = Oh;
                   if (p[Ou(0xb28)](p[Ou(0x6c3)], p[Ou(0x6c3)])) {
-                    !B && b && (U[Y['FnWHf']] = q, i[Ou(0x999)] = J['status']);
+                    if (!B && b) {
+                      U[Y['FnWHf']] = q;
+                      i[Ou(0x999)] = J['status'];
+                    }
                     I(V, E, W);
                   } else {
                     const {
@@ -9568,8 +9703,12 @@ function Envcc(T, c) {
         if (p[Ok(0x37c)](p[Ok(0x1f9)], Ok(0x3a2))) {
           let B = ['', p[Ok(0x88f)]];
           B[p[Ok(0xa53)]](S);
-          a && B[p[Ok(0xa53)]](a);
-          Y && B[p['hVYZM']](Y);
+          if (a) {
+            B[p[Ok(0xa53)]](a);
+          }
+          if (Y) {
+            B[p['hVYZM']](Y);
+          }
           console[p['zptFf']](B[p[Ok(0xa94)]]('\x0a'));
           this[p[Ok(0x7f1)]] = this[p['gIXmD']][Ok(0xac5)](B);
         } else {
@@ -9610,7 +9749,9 @@ function Envcc(T, c) {
         Y = p[OX(0x967)](a, this[p[OX(0x4e3)]]) / 0x3e8;
       this[OX(0x75b)]('', p[OX(0x774)](p[OX(0x774)](p['uoqhc'](p['EREtS']('🔔', this[p[OX(0x6da)]]), OX(0x282)), Y), '\x20秒'));
       this[p[OX(0xc0f)]]();
-      (this[p['otPpW']]() || this[p[OX(0x7ed)]]() || this[p['pFleU']]()) && $done(S);
+      if (this[p['otPpW']]() || this[p[OX(0x7ed)]]() || this[p['pFleU']]()) {
+        $done(S);
+      }
     }
   }(T, c);
 }
